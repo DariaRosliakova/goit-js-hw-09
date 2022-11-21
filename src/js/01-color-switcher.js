@@ -13,7 +13,7 @@ function onStartRandomColor() {
     startBtn.disabled = true;
     stopBtn.disabled = false;
     body.style.backgroundColor = getRandomHexColor()    
-   newBackground = setInterval(() => {body.style.backgroundColor = getRandomHexColor()}, 1000)
+    const newBackground = setInterval(() => {body.style.backgroundColor = getRandomHexColor()}, 1000)
 }
 function onStopRandomColor() {
     stopBtn.disabled = true;
